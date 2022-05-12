@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="PT-BR">
+
+	<head>
+		<img src="logo.png">
+		<h1>São Miguel Paulista </h1>
+		<hr>
+		
+	</head>
+
+	<body>
+		
+			
+	</body>
+</html>

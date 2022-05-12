@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Trabalhando com Formulários</h1>
+        <form>
+            <label for="txtNome">Nome</label>
+            <br>
+            <input  type="text"
+                    name="txtNome"
+                    placeholder="Digite o nome"
+                    title="Digite o nome" 
+                    minlength="3"
+                    maxlength="9"
+                    value=""
+                    required>
+        </form>
+
+        <br>
+
+        <form>           
+            <label for="txtSenha">Password</label>
+            <br>
+            <input  type="Password"
+                    id="txtSenha"
+                    placeholder="Digite a sua senha"
+                    title="Digite a sua senha"
+                    minlength="5"
+                    maxlength="13"
+                    required>
+            <br>
+            <br>
+            <input  type="submit"
+                    id="btnEnviar"
+                    value="Enviar Dados"
+        </form>
+
+</body>
+</html>
